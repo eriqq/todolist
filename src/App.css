@@ -1,32 +1,73 @@
-.App {
+body,html{
+  margin: 0;
+  padding: 0;
+  background: #3D343E;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1,h2,h3,p,a{
+  font-family: 'Nunito', sans-serif;;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  text-align: center;
+  width: 450px;
+  margin: 0 auto;
+  display: inline-block;
+  padding-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.App input[type="text"]{
+  width: 100%;
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+  margin-top: 60px;
+  padding-bottom: 8px;
+}
+
+
+.List {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  display: inline-block;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.ListItem {
+  list-style: none;
+  font-size: 22px;
+  color: white;
+  margin: 0 auto;
+  width: 99%;
+  outline: 1px solid #473b47;
+  background:rgb(67, 87, 97);
+  transition: 0.3s;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.ListItem a {
+  display: block;
+  line-height: 80px;
+  transition: 0.3s;
+}
+
+.ListItem a:hover{
+  background: #614357;
+  cursor: pointer;
 }
